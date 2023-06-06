@@ -1,0 +1,63 @@
+/* CSS for the hero shot using Flexbox */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo-container {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+
+.logo-text {
+  color: #ecedef;
+  font-size: 40px;
+}
+
+.title-container {
+  margin: 20px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.text-container {
+  align-self: flex-start;
+  margin: 20px;
+}
+
+.text-below-title {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.conversion-title {
+  color: #ffffff;
+  font-size: 24px;
+}
+
